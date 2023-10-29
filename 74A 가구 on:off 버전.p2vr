@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!-- Pano2VR project file  -->
-<pano2vrconfig rev="20004" version="7.0.6">
+<pano2vrconfig version="7.0.6" rev="20004">
   <tour>
     <panorama>
       <projectsettings>
@@ -11,7 +11,7 @@
       <input>
         <patch/>
         <type>auto</type>
-        <filename>../가구없음/74A 현관.jpg</filename>
+        <filename>../74A OFF(손잡이)/74A 현관.jpg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
@@ -179,7 +179,7 @@
       <input>
         <patch/>
         <type>auto</type>
-        <filename>../가구없음/74A 현관 복도.jpg</filename>
+        <filename>../74A OFF(손잡이)/74A 현관 복도.jpg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
@@ -425,7 +425,7 @@
       <input>
         <patch/>
         <type>auto</type>
-        <filename>../가구없음/74A 주방 거실.jpg</filename>
+        <filename>../74A OFF(손잡이)/74A 주방 거실.jpg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
@@ -797,7 +797,7 @@
       <input>
         <patch/>
         <type>auto</type>
-        <filename>../가구없음/74A 거실.jpg</filename>
+        <filename>../74A OFF(손잡이)/74A 거실.jpg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
@@ -1040,13 +1040,41 @@
           <width>0</width>
           <height>0</height>
         </hotspot>
+        <hotspot>
+          <position>
+            <pan>-310.69</pan>
+            <tilt>-24.67</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <customprops/>
+          <polygon/>
+          <id>거실-가구off-마루</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node45}</url>
+          <skinid>거실-가구off-마루</skinid>
+          <type>point</type>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
       </hotspots>
       <output/>
       <streetview/>
       <streetviewproject/>
       <ggloudproject/>
       <sounds/>
-      <animation/>
+      <animation>
+        <sequence/>
+      </animation>
     </panorama>
     <panorama>
       <projectsettings>
@@ -1057,7 +1085,7 @@
       <input>
         <patch/>
         <type>auto</type>
-        <filename>../가구없음/74A 거실 주방 (2).jpg</filename>
+        <filename>../74A OFF(손잡이)/74A 거실 주방 (2).jpg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
@@ -1286,6 +1314,58 @@
           <width>0</width>
           <height>0</height>
         </hotspot>
+        <hotspot>
+          <position>
+            <pan>48.21</pan>
+            <tilt>45.34</tilt>
+            <fov>34.39</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <customprops/>
+          <polygon/>
+          <id>에어컨</id>
+          <linktype>url</linktype>
+          <linksubtype>unknown</linksubtype>
+          <skinid>에어컨</skinid>
+          <type>point</type>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>1</autoplace>
+          <customimage>patches/거실1_patch_2.png</customimage>
+          <urlsafecustomimage>1_patch_2.png</urlsafecustomimage>
+          <use3d>1</use3d>
+          <width>1184</width>
+          <height>719</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-335.62</pan>
+            <tilt>35.2</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <customprops/>
+          <polygon/>
+          <id>에어컨버튼</id>
+          <linktype>url</linktype>
+          <linksubtype>unknown</linksubtype>
+          <skinid>에어컨버튼</skinid>
+          <type>point</type>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
       </hotspots>
       <output/>
       <streetview/>
@@ -1303,7 +1383,7 @@
       <input>
         <patch/>
         <type>auto</type>
-        <filename>../가구없음/74A 욕실1.jpg</filename>
+        <filename>../74A OFF(손잡이)/74A 욕실1.jpg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
@@ -1419,7 +1499,7 @@
       <input>
         <patch/>
         <type>auto</type>
-        <filename>../가구없음/74A 욕실2(안방).jpg</filename>
+        <filename>../74A OFF(손잡이)/74A 욕실2(안방).jpg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
@@ -1535,7 +1615,7 @@
       <input>
         <patch/>
         <type>auto</type>
-        <filename>../가구없음/74A 주방 (2).jpg</filename>
+        <filename>../74A OFF(손잡이)/74A 주방 (2).jpg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
@@ -1755,7 +1835,7 @@
       <input>
         <patch/>
         <type>auto</type>
-        <filename>../가구없음/74A 주방.jpg</filename>
+        <filename>../74A OFF(손잡이)/74A 주방.jpg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
@@ -1975,7 +2055,7 @@
       <input>
         <patch/>
         <type>auto</type>
-        <filename>../가구없음/74A 주방 거실 (2).jpg</filename>
+        <filename>../74A OFF(손잡이)/74A 주방 거실 (2).jpg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
@@ -2247,7 +2327,7 @@
       <input>
         <patch/>
         <type>auto</type>
-        <filename>../가구없음/74A 팬트리 세탁실.jpg</filename>
+        <filename>../74A OFF(손잡이)/74A 팬트리 세탁실.jpg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
@@ -2363,7 +2443,7 @@
       <input>
         <patch/>
         <type>auto</type>
-        <filename>../가구없음/74A 침실1(안방) 1.jpg</filename>
+        <filename>../74A OFF(손잡이)/74A 침실1(안방) 1.jpg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
@@ -2557,7 +2637,7 @@
       <input>
         <patch/>
         <type>auto</type>
-        <filename>../가구없음/74A 침실1(안방) 2.jpg</filename>
+        <filename>../74A OFF(손잡이)/74A 침실1(안방) 2.jpg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
@@ -2777,7 +2857,7 @@
       <input>
         <patch/>
         <type>auto</type>
-        <filename>../가구없음/74A 침실1(안방).jpg</filename>
+        <filename>../74A OFF(손잡이)/74A 침실1(안방).jpg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
@@ -2919,7 +2999,7 @@
       <input>
         <patch/>
         <type>auto</type>
-        <filename>../가구없음/74A 파우더룸(안방).jpg</filename>
+        <filename>../74A OFF(손잡이)/74A 파우더룸(안방).jpg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
@@ -3087,7 +3167,7 @@
       <input>
         <patch/>
         <type>auto</type>
-        <filename>../가구없음/74A 드레스룸(안방).jpg</filename>
+        <filename>../74A OFF(손잡이)/74A 드레스룸(안방).jpg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
@@ -3177,7 +3257,7 @@
       <input>
         <patch/>
         <type>auto</type>
-        <filename>../가구없음/74A 침실2 1.jpg</filename>
+        <filename>../74A OFF(손잡이)/74A 침실2 1.jpg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
@@ -3267,7 +3347,7 @@
       <input>
         <patch/>
         <type>auto</type>
-        <filename>../가구없음/74A 침실2.jpg</filename>
+        <filename>../74A OFF(손잡이)/74A 침실2.jpg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
@@ -3409,7 +3489,7 @@
       <input>
         <patch/>
         <type>auto</type>
-        <filename>../가구없음/74A 침실3 1.jpg</filename>
+        <filename>../74A OFF(손잡이)/74A 침실3 1.jpg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
@@ -3577,7 +3657,7 @@
       <input>
         <patch/>
         <type>auto</type>
-        <filename>../가구없음/74A 침실3.jpg</filename>
+        <filename>../74A OFF(손잡이)/74A 침실3.jpg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
@@ -3705,7 +3785,7 @@
       <userdata>
         <customprops/>
         <capturedatetime>2023-10-10T16:00:22</capturedatetime>
-        <tags>bnc</tags>
+        <tags>가구있음</tags>
         <altitude>-10000</altitude>
         <title>현관</title>
         <description>1층</description>
@@ -3873,7 +3953,7 @@
       <userdata>
         <customprops/>
         <capturedatetime>2023-10-10T16:06:04</capturedatetime>
-        <tags>bnc</tags>
+        <tags>가구있음</tags>
         <altitude>-10000</altitude>
         <title>복도</title>
         <description>1층</description>
@@ -4119,7 +4199,7 @@
       <userdata>
         <customprops/>
         <capturedatetime>2023-10-10T16:13:04</capturedatetime>
-        <tags>bnc</tags>
+        <tags>가구있음</tags>
         <altitude>-10000</altitude>
         <title>복도</title>
         <description>1층</description>
@@ -4495,7 +4575,7 @@
       <userdata>
         <customprops/>
         <capturedatetime>2023-10-10T16:42:22</capturedatetime>
-        <tags>bnc</tags>
+        <tags>가구있음</tags>
         <altitude>-10000</altitude>
         <title>거실</title>
         <description>1층</description>
@@ -4686,6 +4766,34 @@
           <width>0</width>
           <height>0</height>
         </hotspot>
+        <hotspot>
+          <position>
+            <pan>-309.8</pan>
+            <tilt>-23.03</tilt>
+            <fov>3.89</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <customprops/>
+          <polygon/>
+          <id>거실-가구on-마루</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node44}</url>
+          <skinid>거실-가구on-마루</skinid>
+          <type>point</type>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <customimage>/Users/andokyoung/Desktop/ggnomr pano_image/가구 off.png</customimage>
+          <urlsafecustomimage> off.png</urlsafecustomimage>
+          <use3d>1</use3d>
+          <width>30</width>
+          <height>30</height>
+        </hotspot>
       </hotspots>
       <output/>
       <streetview/>
@@ -4741,7 +4849,7 @@
       <userdata>
         <customprops/>
         <capturedatetime>2023-10-10T16:13:38</capturedatetime>
-        <tags>bnc</tags>
+        <tags>가구있음</tags>
         <title>거실</title>
         <altitude>-10000</altitude>
         <description>1층</description>
@@ -4932,6 +5040,58 @@
           <width>0</width>
           <height>0</height>
         </hotspot>
+        <hotspot>
+          <position>
+            <pan>47.98</pan>
+            <tilt>43.56</tilt>
+            <fov>39.66</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <customprops/>
+          <polygon/>
+          <id>거실천정</id>
+          <linktype>url</linktype>
+          <linksubtype>unknown</linksubtype>
+          <skinid>거실천정</skinid>
+          <type>point</type>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>1</autoplace>
+          <customimage>patches/74A 거실 주방 (2)_patch.png</customimage>
+          <urlsafecustomimage>74A   2_patch.png</urlsafecustomimage>
+          <use3d>1</use3d>
+          <width>1392</width>
+          <height>1392</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-338.7</pan>
+            <tilt>30.34</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <customprops/>
+          <polygon/>
+          <id>거실천정버튼</id>
+          <linktype>url</linktype>
+          <linksubtype>unknown</linksubtype>
+          <skinid>거실천정버튼</skinid>
+          <type>point</type>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
       </hotspots>
       <output/>
       <streetview/>
@@ -4987,7 +5147,7 @@
       <userdata>
         <customprops/>
         <capturedatetime>2023-10-09T23:42:48</capturedatetime>
-        <tags>bnc</tags>
+        <tags>가구있음</tags>
         <title>욕실1</title>
         <altitude>-10000</altitude>
         <description>1층</description>
@@ -5103,7 +5263,7 @@
       <userdata>
         <customprops/>
         <capturedatetime>2023-10-11T09:15:24</capturedatetime>
-        <tags>bnc</tags>
+        <tags>가구있음</tags>
         <altitude>-10000</altitude>
         <title>욕실2</title>
         <description>1층</description>
@@ -5219,7 +5379,7 @@
       <userdata>
         <customprops/>
         <capturedatetime>2023-10-10T16:13:44</capturedatetime>
-        <tags>bnc</tags>
+        <tags>가구있음</tags>
         <title>주방</title>
         <altitude>-10000</altitude>
         <description>1층</description>
@@ -5465,7 +5625,7 @@
       <userdata>
         <customprops/>
         <capturedatetime>2023-10-10T16:12:50</capturedatetime>
-        <tags>bnc</tags>
+        <tags>가구있음</tags>
         <altitude>-10000</altitude>
         <title>주방</title>
         <description>1층</description>
@@ -5685,7 +5845,7 @@
       <userdata>
         <customprops/>
         <capturedatetime>2023-10-10T16:13:08</capturedatetime>
-        <tags>bnc</tags>
+        <tags>가구있음</tags>
         <title>주방</title>
         <altitude>-10000</altitude>
         <description>1층</description>
@@ -5957,7 +6117,7 @@
       <userdata>
         <customprops/>
         <capturedatetime>2023-10-09T23:45:30</capturedatetime>
-        <tags>bnc</tags>
+        <tags>가구있음</tags>
         <title>팬트리</title>
         <altitude>-10000</altitude>
         <description>1층</description>
@@ -6073,7 +6233,7 @@
       <userdata>
         <customprops/>
         <capturedatetime>2023-10-10T16:13:04</capturedatetime>
-        <tags>bnc</tags>
+        <tags>가구있음</tags>
         <title>침실1</title>
         <altitude>-10000</altitude>
         <description>1층</description>
@@ -6267,7 +6427,7 @@
       <userdata>
         <customprops/>
         <capturedatetime>2023-10-10T16:12:52</capturedatetime>
-        <tags>bnc</tags>
+        <tags>가구있음</tags>
         <altitude>-10000</altitude>
         <title>침실1</title>
         <description>1층</description>
@@ -6487,7 +6647,7 @@
       <userdata>
         <customprops/>
         <capturedatetime>2023-10-10T16:12:52</capturedatetime>
-        <tags>bnc</tags>
+        <tags>가구있음</tags>
         <title>침실1</title>
         <altitude>-10000</altitude>
         <description>1층</description>
@@ -6707,7 +6867,7 @@
       <userdata>
         <customprops/>
         <capturedatetime>2023-10-11T09:13:14</capturedatetime>
-        <tags>bnc</tags>
+        <tags>가구있음</tags>
         <title>파우더룸</title>
         <altitude>-10000</altitude>
         <description>1층</description>
@@ -6875,7 +7035,7 @@
       <userdata>
         <customprops/>
         <capturedatetime>2023-10-09T23:37:30</capturedatetime>
-        <tags>bnc</tags>
+        <tags>가구있음</tags>
         <altitude>-10000</altitude>
         <title>드레스룸</title>
         <description>1층</description>
@@ -6965,7 +7125,7 @@
       <userdata>
         <customprops/>
         <capturedatetime>2023-10-08T18:53:30</capturedatetime>
-        <tags>bnc</tags>
+        <tags>가구있음</tags>
         <title>침실2</title>
         <altitude>-10000</altitude>
         <description>1층</description>
@@ -7055,7 +7215,7 @@
       <userdata>
         <customprops/>
         <capturedatetime>2023-10-08T18:52:48</capturedatetime>
-        <tags>bnc</tags>
+        <tags>가구있음</tags>
         <altitude>-10000</altitude>
         <title>침실2</title>
         <description>1층</description>
@@ -7197,7 +7357,7 @@
       <userdata>
         <customprops/>
         <capturedatetime>2023-10-08T18:52:44</capturedatetime>
-        <tags>bnc</tags>
+        <tags>가구있음</tags>
         <altitude>-10000</altitude>
         <title>침실3</title>
         <description>1층</description>
@@ -7365,7 +7525,7 @@
       <userdata>
         <customprops/>
         <capturedatetime>2023-10-08T18:52:12</capturedatetime>
-        <tags>bnc</tags>
+        <tags>가구있음</tags>
         <altitude>-10000</altitude>
         <title>침실3</title>
         <description>1층</description>
@@ -7486,6 +7646,549 @@
       <sounds/>
       <id>node41</id>
     </panorama>
+    <panorama>
+      <projectsettings>
+        <userdata>
+          <customprops/>
+        </userdata>
+      </projectsettings>
+      <input>
+        <patch/>
+        <type>auto</type>
+        <filename>../74A 마루 ON/74A 거실.jpg</filename>
+        <videotype>equi</videotype>
+        <levelpitch>0</levelpitch>
+        <levelroll>0</levelroll>
+      </input>
+      <viewingparameter>
+        <pan>
+          <start>2.53413</start>
+          <min>0</min>
+          <max>360</max>
+        </pan>
+        <tilt>
+          <start>2.03013</start>
+          <min>-90</min>
+          <max>90</max>
+        </tilt>
+        <fov>
+          <start>126.58</start>
+          <minunit>pixels</minunit>
+          <minpixels>2</minpixels>
+          <max>140</max>
+          <maxfovstereographic>330</maxfovstereographic>
+          <maxfovfisheye>360</maxfovfisheye>
+        </fov>
+        <flyinstart>
+          <pan>0</pan>
+          <tilt>-90</tilt>
+          <fov>170</fov>
+        </flyinstart>
+        <pannorth>0</pannorth>
+        <scaletofit>1</scaletofit>
+        <projection>rectilinear</projection>
+        <flyinprojection>stereo</flyinprojection>
+        <defaultviewtimestamp>2023-10-19T17:25:19</defaultviewtimestamp>
+      </viewingparameter>
+      <userdata>
+        <customprops/>
+        <capturedatetime>2023-10-19T13:45:48</capturedatetime>
+        <tags>가구있음</tags>
+        <title>거실2 가구 on 마루</title>
+        <altitude>-10000</altitude>
+        <information>74A</information>
+        <comment>거실마루</comment>
+      </userdata>
+      <floorplans/>
+      <hotspots>
+        <hotspot>
+          <position>
+            <pan>-307.86</pan>
+            <tilt>-24.67</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <customprops/>
+          <polygon/>
+          <id>거실-가구on-타일</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node32}</url>
+          <skinid>거실-가구on-타일</skinid>
+          <type>point</type>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-344.67</pan>
+            <tilt>-15.09</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <customprops/>
+          <polygon/>
+          <id>Point01</id>
+          <title>$(ut)</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node24}</url>
+          <type>point</type>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-336.23</pan>
+            <tilt>-1.89</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <customprops/>
+          <polygon/>
+          <id>Point02</id>
+          <title>$(ut)</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node35}</url>
+          <type>point</type>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-316.25</pan>
+            <tilt>-0.74</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <customprops/>
+          <polygon/>
+          <id>Point03</id>
+          <title>$(ut)</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node31}</url>
+          <type>point</type>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-301.09</pan>
+            <tilt>-4.1</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <customprops/>
+          <polygon/>
+          <id>Point04</id>
+          <title>$(ut)</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node28}</url>
+          <type>point</type>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-22.58</pan>
+            <tilt>-13.38</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <customprops/>
+          <polygon/>
+          <id>Point05</id>
+          <title>$(ut)</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node21}</url>
+          <type>point</type>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-327.68</pan>
+            <tilt>-6.41</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <customprops/>
+          <polygon/>
+          <id>Point06</id>
+          <title>$(ut)</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node29}</url>
+          <type>point</type>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-282.86</pan>
+            <tilt>-5.39</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <customprops/>
+          <polygon/>
+          <id>Point07</id>
+          <title>$(ut)</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node23}</url>
+          <type>point</type>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+      </hotspots>
+      <output/>
+      <streetview/>
+      <streetviewproject/>
+      <ggloudproject/>
+      <sounds/>
+      <id>node44</id>
+    </panorama>
+    <panorama>
+      <projectsettings>
+        <userdata>
+          <customprops/>
+        </userdata>
+      </projectsettings>
+      <input>
+        <patch/>
+        <type>auto</type>
+        <filename>../74A 거실(마루 타일 합성).jpg</filename>
+        <videotype>equi</videotype>
+        <levelpitch>0</levelpitch>
+        <levelroll>0</levelroll>
+      </input>
+      <viewingparameter>
+        <pan>
+          <start>11.3531</start>
+          <min>0</min>
+          <max>360</max>
+        </pan>
+        <tilt>
+          <start>-0.351643</start>
+          <min>-90</min>
+          <max>90</max>
+        </tilt>
+        <fov>
+          <start>108.174</start>
+          <minunit>pixels</minunit>
+          <minpixels>2</minpixels>
+          <max>140</max>
+          <maxfovstereographic>330</maxfovstereographic>
+          <maxfovfisheye>360</maxfovfisheye>
+        </fov>
+        <flyinstart>
+          <pan>0</pan>
+          <tilt>-90</tilt>
+          <fov>170</fov>
+        </flyinstart>
+        <pannorth>0</pannorth>
+        <scaletofit>1</scaletofit>
+        <projection>rectilinear</projection>
+        <flyinprojection>stereo</flyinprojection>
+        <defaultviewtimestamp>2023-10-19T17:26:28</defaultviewtimestamp>
+      </viewingparameter>
+      <userdata>
+        <customprops/>
+        <capturedatetime>2023-10-19T13:41:26</capturedatetime>
+        <tags>가구없음</tags>
+        <altitude>-10000</altitude>
+        <title>거실2 가구off 마루</title>
+        <information>74A</information>
+        <comment>거실마루</comment>
+      </userdata>
+      <floorplans/>
+      <hotspots>
+        <hotspot>
+          <position>
+            <pan>-344.3</pan>
+            <tilt>-15.93</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <customprops/>
+          <polygon/>
+          <id>Point01</id>
+          <title>$(ut)</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node8}</url>
+          <type>point</type>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-336.24</pan>
+            <tilt>-1.54</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <customprops/>
+          <polygon/>
+          <id>Point02</id>
+          <title>$(ut)</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node18}</url>
+          <type>point</type>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-315.91</pan>
+            <tilt>-0.72</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <customprops/>
+          <polygon/>
+          <id>Point03</id>
+          <title>$(ut)</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node6}</url>
+          <type>point</type>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-301.55</pan>
+            <tilt>-3.15</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <customprops/>
+          <polygon/>
+          <id>Point04</id>
+          <title>$(ut)</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node9}</url>
+          <type>point</type>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-331.74</pan>
+            <tilt>-10.56</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <customprops/>
+          <polygon/>
+          <id>Point05</id>
+          <title>$(ut)</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node7}</url>
+          <type>point</type>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-310.99</pan>
+            <tilt>-25.21</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <customprops/>
+          <polygon/>
+          <id>거실-가구off-타일</id>
+          <title>$(ut)</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node1}</url>
+          <skinid>거실-가구off-타일</skinid>
+          <type>point</type>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-21.71</pan>
+            <tilt>-13.59</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <customprops/>
+          <polygon/>
+          <id>Point07</id>
+          <title>$(ut)</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node2}</url>
+          <type>point</type>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-283.79</pan>
+            <tilt>-4.66</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <customprops/>
+          <polygon/>
+          <id>Point08</id>
+          <title>$(ut)</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node12}</url>
+          <type>point</type>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+      </hotspots>
+      <output/>
+      <streetview/>
+      <streetviewproject/>
+      <ggloudproject/>
+      <sounds/>
+      <id>node45</id>
+    </panorama>
   </tour>
   <panorama>
     <id>master</id>
@@ -7540,6 +8243,35 @@
         <filename>../74A 가구 on:off 버전/pano.xml</filename>
         <skinfile>가구on:off_coohome.ggsk</skinfile>
       </htmlcss>
+      <htmlcss>
+        <html>
+          <values>
+            <value id="cachebust">true</value>
+            <value id="css"></value>
+            <value id="fitcover">false</value>
+            <value id="htmltitle">$(upt)</value>
+            <value id="jsxml">false</value>
+            <value id="parseanchor">true</value>
+          </values>
+          <enabled>1</enabled>
+          <filename>../74A 가구 on:off 버전2/index.html</filename>
+        </html>
+        <facequality/>
+        <transition>
+          <zoomfov>40</zoomfov>
+          <zoomafterinfov>140</zoomafterinfov>
+          <zoomafteroutfov>40</zoomafteroutfov>
+        </transition>
+        <autorotate/>
+        <soundstransition/>
+        <flyintransition/>
+        <hotspottext/>
+        <hotspotstyle/>
+        <webvr/>
+        <tilesize>3000</tilesize>
+        <filename>../74A 가구 on:off 버전2/pano.xml</filename>
+        <skinfile>가구on:off_coohome.ggsk</skinfile>
+      </htmlcss>
     </output>
     <streetview/>
     <streetviewproject/>
@@ -7547,7 +8279,6 @@
     <sounds/>
     <animation>
       <title>Animation01</title>
-      <sequence/>
     </animation>
   </panorama>
 </pano2vrconfig>
