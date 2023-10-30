@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.0.6/20004
 // Filename: ??on:off 74B A ??.ggsk
-// Generated 2023-10-30T14:12:53
+// Generated 2023-10-30T14:29:41
 
 function pano2vrSkin(player,base) {
 	player.addVariable('vis_mobilemenu', 2, false, { ignoreInState: 0  });
@@ -199,11 +199,16 @@ function pano2vrSkin(player,base) {
 		me.__148.logicBlock_visible = function() {
 			var newLogicStateVisible;
 			if (
-				((player.getViewerSize().width <= 460)) && 
-				((player.getIsMobile() == true))
+				((player.getViewerSize().width <= 460))
 			)
 			{
 				newLogicStateVisible = 0;
+			}
+			else if (
+				((player.getIsMobile() == true))
+			)
+			{
+				newLogicStateVisible = 1;
 			}
 			else {
 				newLogicStateVisible = -1;
@@ -212,6 +217,10 @@ function pano2vrSkin(player,base) {
 				me.__148.ggCurrentLogicStateVisible = newLogicStateVisible;
 				me.__148.style.transition='left 500ms ease 0ms, top 500ms ease 0ms';
 				if (me.__148.ggCurrentLogicStateVisible == 0) {
+					me.__148.style.visibility=(Number(me.__148.style.opacity)>0||!me.__148.style.opacity)?'inherit':'hidden';
+					me.__148.ggVisible=true;
+				}
+				else if (me.__148.ggCurrentLogicStateVisible == 1) {
 					me.__148.style.visibility=(Number(me.__148.style.opacity)>0||!me.__148.style.opacity)?'inherit':'hidden';
 					me.__148.ggVisible=true;
 				}
@@ -16484,11 +16493,16 @@ function pano2vrSkin(player,base) {
 		me.__43.logicBlock_visible = function() {
 			var newLogicStateVisible;
 			if (
-				((player.getViewerSize().width <= 460)) && 
-				((player.getIsMobile() == true))
+				((player.getViewerSize().width <= 460))
 			)
 			{
 				newLogicStateVisible = 0;
+			}
+			else if (
+				((player.getIsMobile() == true))
+			)
+			{
+				newLogicStateVisible = 1;
 			}
 			else {
 				newLogicStateVisible = -1;
@@ -16497,6 +16511,10 @@ function pano2vrSkin(player,base) {
 				me.__43.ggCurrentLogicStateVisible = newLogicStateVisible;
 				me.__43.style.transition='';
 				if (me.__43.ggCurrentLogicStateVisible == 0) {
+					me.__43.style.visibility=(Number(me.__43.style.opacity)>0||!me.__43.style.opacity)?'inherit':'hidden';
+					me.__43.ggVisible=true;
+				}
+				else if (me.__43.ggCurrentLogicStateVisible == 1) {
 					me.__43.style.visibility=(Number(me.__43.style.opacity)>0||!me.__43.style.opacity)?'inherit':'hidden';
 					me.__43.ggVisible=true;
 				}
@@ -33293,11 +33311,16 @@ function pano2vrSkin(player,base) {
 		me._mobile.logicBlock_visible = function() {
 			var newLogicStateVisible;
 			if (
-				((player.getViewerSize().width <= 460)) && 
-				((player.getIsMobile() == true))
+				((player.getViewerSize().width <= 460))
 			)
 			{
 				newLogicStateVisible = 0;
+			}
+			else if (
+				((player.getIsMobile() == true))
+			)
+			{
+				newLogicStateVisible = 1;
 			}
 			else {
 				newLogicStateVisible = -1;
@@ -33306,6 +33329,10 @@ function pano2vrSkin(player,base) {
 				me._mobile.ggCurrentLogicStateVisible = newLogicStateVisible;
 				me._mobile.style.transition='transform 0s';
 				if (me._mobile.ggCurrentLogicStateVisible == 0) {
+					me._mobile.style.visibility=(Number(me._mobile.style.opacity)>0||!me._mobile.style.opacity)?'inherit':'hidden';
+					me._mobile.ggVisible=true;
+				}
+				else if (me._mobile.ggCurrentLogicStateVisible == 1) {
 					me._mobile.style.visibility=(Number(me._mobile.style.opacity)>0||!me._mobile.style.opacity)?'inherit':'hidden';
 					me._mobile.ggVisible=true;
 				}
